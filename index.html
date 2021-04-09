@@ -4,9 +4,155 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/3dbe5573ce.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="Styles/Chatbot.css">
     <title>Homepage</title>
 </head>
 <body>
-    
+    <section class="landing_page">
+        <nav>
+            <div class="logo">
+                <img src="/index.img" alt="logo">
+            </div>
+            <ul class="navbar_menu">
+                <li><a href="#">Acceuil</a></li>
+                <li><a href="#">Nous contacter</a></li>
+                <li><a href="#">A propos</a></li>
+            </ul>
+            <div class="nav_connexion">
+                <a href="#">Connexion</a>
+                <a href="#">Inscription</a>
+            </div>
+        </nav>
+        <div class="text">
+            <h1>Rejoingnez nous !</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, 
+                adipisicing elit. Praesentium vitae nam dignissimos, 
+                adipisci beatae id odio aut modi iste alias fugit sint 
+                ipsa, dolore illo nemo facere! Voluptatum, atque 
+                tempore.
+            </p>
+            <a href="#">Candidater</a>
+        </div>
+        <div class="container">
+            <div class="chatbox">
+                <div class="chatname">
+                    <div class="leftUser">
+                        <div class="circlebg">
+                          <div class="circlelittle"></div>
+                        </div>
+                        <p>Chatbot</p>
+                    </div>
+                    <div class="rightUser">
+                        <i class="fas fa-times"></i>
+                    </div>
+                </div>
+                <div id="chatLog"></div>
+                <div class="chatwriting">
+                    <input 
+                    id="userBox"
+                    type="text"
+                    placeholder="Rechercher une offre"
+                    />
+                    <i class="fas fa-paper-plane"></i>
+                </div>
+            </div>
+            <div class="fixed_btn" onClick="">
+                <button class="closed"><i class="fas fa-minus"></i></button>
+            </div>
+        </div>
+        <div class="bottom_arrow">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+        <div class="images_bg">
+            <img src="assets/Groupe 13.png" alt="background">          
+        </div>
+    </section>
+    <section class="emploi">
+        <h2>Chercher un emploi</h2>
+        <div class="search">
+            <img src="assets/Groupe 10.png" alt="emploi à chercher">
+        </div>
+    </section>
+    <section class="presentation">
+        <div class="box">
+            <img src="assets/Groupe 9.png" alt="video">
+        </div>
+    </section>
+    <section class="organisation">
+        <div class="top_part">
+            <div class="text_part">
+                <h2>Organisation d'évènement</h2>
+                <p>Sous la responsabilité du chef de projet Evenementiel
+                    vous participerez à l'organisation et à la mise en
+                    oeuvre des journées de lancement de votr évènement.
+                </p>
+                <a href="#">Postuler</a>
+            </div>
+            <div class="image_container">
+                <img src="assets/embleme-mobile_e1bfc7c8.png" alt="image_bg">
+            </div>
+        </div>
+        <div class="bottom_part">
+            <div class="text_part">
+                <h2>Restauration</h2>
+                <p>Sous la responsabilité d'un Chef de Restaurant, vous innoverez pour de 
+                    nouvelles recettes et accompagnerez le lancement
+                    des cartes de différents restaurants. 
+                    Vous serez aussi l'interlocuteur entre le client et les cuisines.
+                </p>
+                <a href="#">Postuler</a>
+            </div>
+            <div class="image_container">
+                <img src="assets/restauration-commerciale-33.png" alt="image_bg">
+            </div>
+        </div>
+    </section>
+    <section class="partenaire_container">
+        <h2>Nos partenaires</h2>
+        <div class="partenaires">
+            <img src="assets/Groupe 11.png" alt="partenaires">
+        </div>
+    </section>
+    <section class="athletepic">
+        <h2>Lorem ipsum dolor sit</h2>
+        <div class="bg">
+            <img src="assets/Groupe 12.png" alt="big pic">
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing 
+            elit. Sapiente atque assumenda, quisquam esse nostrum 
+            consequuntur illo nam quas eius deserunt veritatis 
+            reprehenderit laborum corporis. Architecto dolore incidunt 
+            ratione ipsa sint.
+        </p>
+    </section>
+    <footer>
+        <div class="footer_container">
+            <div class="logo">
+                <img src="Logo" alt="Logo">
+            </div>
+            <span></span>
+            <ul class="acceuil_footer">
+                <li><h3>Acceuil</h3></li>
+                <li>Lorem ipsum</li>
+                <li>Lorem ipsum</li>
+                <li>Lorem ipsum</li>
+                <li>Lorem ipsum</li>
+            </ul>
+            <ul class="contact_footer">
+                <li><h3>Nous contacter</h3></li>
+                <li>Lorem ipsum</li>
+                <li>Lorem ipsum</li>
+                <li>Lorem ipsum</li>
+                <li>Lorem ipsum</li>
+            </ul>
+            <ul class="social_links">
+                <li><h3>Nos réseaux sociaux</h3></li>
+                <li><i class="fab fa-facebook"></i></li>
+                <li><i class="fab fa-linkedin"></i></li>
+                <li><i class="fab fa-instagram-square"></i></li>
+            </ul>
+        </div>
+    </footer>
 </body>
 </html>
